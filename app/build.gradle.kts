@@ -49,6 +49,15 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+
+    // ViewModel for state management
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    // Icons (optional, but very useful)
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.compose.foundation)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
